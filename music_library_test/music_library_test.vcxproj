@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{9BEE4D77-D2B7-4BD4-9216-1DFC97B3B429}</ProjectGuid>
-    <RootNamespace>CPEN333_Lab5</RootNamespace>
+    <ProjectGuid>{F03B0381-4583-4CFE-94FA-E5959A36E405}</ProjectGuid>
+    <RootNamespace>music_library_test</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -70,7 +70,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\Workspaces\Workspace_Cpp\CPEN333_Library\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\Workspaces\Workspace_Cpp\CPEN333_Lab5\include;D:\Workspaces\Workspace_Cpp\CPEN333_Library\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -113,6 +113,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\json.hpp" />
+    <ClInclude Include="..\include\JsonConverter.h" />
+    <ClInclude Include="..\include\JsonMusicLibraryApi.h" />
+    <ClInclude Include="..\include\Message.h" />
+    <ClInclude Include="..\include\MusicLibrary.h" />
+    <ClInclude Include="..\include\MusicLibraryApi.h" />
+    <ClInclude Include="..\include\Song.h" />
+    <ClInclude Include="TestException.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="music_library_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
