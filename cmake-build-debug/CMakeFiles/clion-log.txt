@@ -1,0 +1,4 @@
+/home/minghua/Applications/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/minghua/Documents/Workspace_Cpp/cpen333/CPEN333_Lab5
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/minghua/Documents/Workspace_Cpp/cpen333/CPEN333_Lab5/cmake-build-debug

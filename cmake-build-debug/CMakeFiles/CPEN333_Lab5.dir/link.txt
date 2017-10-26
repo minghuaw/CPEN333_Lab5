@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++14 -O3 -g   CMakeFiles/CPEN333_Lab5.dir/music_library_client/music_library_client.cpp.o CMakeFiles/CPEN333_Lab5.dir/music_library_server/music_library_server.cpp.o CMakeFiles/CPEN333_Lab5.dir/music_library_test/music_library_test.cpp.o  -o CPEN333_Lab5 

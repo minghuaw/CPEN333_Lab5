@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -pthread -g   CMakeFiles/server.dir/music_library_server/music_library_server.cpp.o  -o server 

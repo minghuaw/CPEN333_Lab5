@@ -17,7 +17,7 @@
 #include "JsonMusicLibraryApi.h"
 
 #include <cpen333/process/socket.h>
-#include <cpen333\process\mutex.h>
+#include <cpen333/process/mutex.h>
 
 /**
 * Main thread function for handling communication with a single remote
@@ -197,7 +197,8 @@ int main() {
 			// service client-server communication		
 			//service(lib, std::move(api), 0);
 			auto serviceThread = std::thread(service, std::ref(lib), std::move(api), idCounter); // create service routine in a separate thread
-			serviceThread.detach(); // detach serivce service routine thread
+
+            serviceThread.detach(); // detach serivce service routine thread
 			idCounter++; // increment id counter
 		}
 	}
